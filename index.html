@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Figuras Geométricas | Prueba Analista Desarrollador</title>
+</head>
+<body>
+    <header class="nav-header">
+        <h1>Figuras Geométricas</h1>
+        <p>Ejercicio #1.</p>
+    </header>
+    <br>
+    <section class="section-operation circle" >
+        <h2>¡Calcula el área de un círculo!</h2>
+        <form>
+            <label for="InputCirculo">
+                <br>Escribe las medida del radio: <br>
+            </label>
+            <br><input id="InputCirculo" type="number"/><br>
+            <br>
+            <p id="ResultadoCirculo"></p>
+            <br><button type="button" class="button-calculate" onclick="calcularAreaCirculo()">Calcular área.</button>
+            <p id="ResultadoCirculo"></p>
+        </form>
+    </section>
+    <br>
+    <section class="section-operation triangulo">
+        <h2>¡Calcula el área de un triángulo!</h2>
+        <form>
+            <label for="InputTrianguloBase">
+                <br>Escribe la base del triángulo:<br>
+            </label>
+            <br><input id="InputTrianguloBase" type="number"/><br>
+            <label for="InputTrianguloAltura">
+                <br>Escribe la altura del triángulo:<br>
+            </label>
+            <br><input id="InputTrianguloAltura" type="number"/><br>    
+            <br>
+            <p id="ResultadoTriangulo"></p>
+            <br>
+            <button type="button" class="button-calculate" onclick="calcularAreaTriangulo()">Calcular área.</button>
+        </form>
+    </section>
+    <br>
+    <section class="section-operation cuadrado">
+        <h2>¡Calcula el área de un cuadrado!</h2>
+        <form>
+            <label for="InputCuadrado">
+                <br>Escribe las medidas del cuadrado: <br>
+            </label>
+            <br><input id="InputCuadrado" type="number"/><br>
+            <br>
+            <p id="ResultadoCuadrado"></p>
+            <br><button type="button" class="button-calculate" onclick="calcularAreaCuadrado()">Calcular área.</button>
+            <br>
+        </form>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+</html>

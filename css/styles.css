@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #262335;
+    
+}
+
+header {
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    padding: 15px;
+    background-color: #241B2F;
+    box-shadow: black;
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.section-operation {
+    width: 500px;
+    margin: 10px;
+    color: white;
+    background-color: #463465;
+    border: 2px solid #5E4E79;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px black;
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+.section-operation:hover{
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 10px black;
+}
+
+.circle {
+    background-image: url(/img/circulo_2.png);
+    background-position-x: 0px;
+    background-size: 500px;
+}
+
+.triangulo {
+    background-image: url(/img/triangulo_2.png);
+    background-position-x: 500px;
+    background-position-y: 310px;
+    background-size: 700px;
+}
+
+.cuadrado {
+    background-image: url(/img/cuadrado_2.png);
+    background-position-x: 0px;
+    background-size: 500px;
+}
+.button-calculate {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: white;
+    font-style: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-calculate:hover{
+    transition-duration: 0.3s;
+    background-color: mediumaquamarine;
+}
